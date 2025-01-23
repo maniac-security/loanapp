@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvReceiptTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loan Receipt"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/tvReceiptTabletBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tablet Brand:" />
+
+    <TextView
+        android:id="@+id/tvReceiptCableType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cable Type:" />
+
+    <TextView
+        android:id="@+id/tvReceiptBorrowerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Borrower Name:" />
+
+    <TextView
+        android:id="@+id/tvReceiptContactInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Info:" />
+
+    <TextView
+        android:id="@+id/tvReceiptDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date:" />
+
+    <Button
+        android:id="@+id/btnCloseReceipt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
