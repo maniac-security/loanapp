@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/etFilterDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Filter by Date (yyyy-mm-dd)" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filter by Brand:" />
+
+    <RadioGroup
+        android:id="@+id/rgFilterBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rbFilterBrandA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acer" />
+        <RadioButton
+            android:id="@+id/rbFilterBrandB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Samsung" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filter by Cable Type:" />
+
+    <RadioGroup
+        android:id="@+id/rgFilterCableType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rbFilterUsbC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USB-C" />
+        <RadioButton
+            android:id="@+id/rbFilterMicroUsb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Micro-USB" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apply Filter"
+        android:layout_marginTop="8dp" />
+
+    <ListView
+        android:id="@+id/listViewLoans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

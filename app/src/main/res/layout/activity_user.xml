@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tablet Brand (Required):" />
+
+        <RadioGroup
+            android:id="@+id/rgTabletBrand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbBrandA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Acer" />
+            <RadioButton
+                android:id="@+id/rbBrandB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Samsung" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cable Type (Optional):" />
+
+        <RadioGroup
+            android:id="@+id/rgCableType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbUsbC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USB-C" />
+            <RadioButton
+                android:id="@+id/rbMicroUsb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Micro-USB" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/etBorrowerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Navn" />
+
+        <EditText
+            android:id="@+id/etContactInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Telefon nummer" />
+
+        <Button
+            android:id="@+id/btnSaveLoan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lån tablet"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>

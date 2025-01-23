@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/tvLoanBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Brand" />
+
+    <TextView
+        android:id="@+id/tvLoanCable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cable Type" />
+
+    <TextView
+        android:id="@+id/tvLoanBorrower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Borrower" />
+
+    <TextView
+        android:id="@+id/tvLoanDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date" />
+</LinearLayout>

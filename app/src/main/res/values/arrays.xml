@@ -1,0 +1,12 @@
+<resources>
+    <string-array name="brands">
+        <item>Brand A</item>
+        <item>Brand B</item>
+    </string-array>
+
+    <string-array name="cables">
+        <item>Ingen</item>
+        <item>USB-C</item>
+        <item>Micro-USB</item>
+    </string-array>
+</resources>

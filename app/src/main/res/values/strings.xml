@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Loan App</string>
+    <string name="user">User</string>
+    <string name="admin">Admin</string>
+    <string name="login">Login</string>
+    <string name="save_loan">Save Loan</string>
+</resources>
